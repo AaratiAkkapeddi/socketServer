@@ -59,4 +59,4 @@ socket.on('connection', function(client){ //client represents what is connected
 });
 
 
-console.log('Socket Running on 1337');
+console.log('Socket Running on Heroku!');
