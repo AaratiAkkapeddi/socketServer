@@ -1,6 +1,6 @@
 var express = require('express'),
     server = express(),
-    PORT = process.env.PORT || 3000,
+    port = process.env.PORT || 3000,
 
     WebSocket = require('ws').Server, //no error its not real
     socket = new WebSocket({port: 1337});//has to run on its own port
