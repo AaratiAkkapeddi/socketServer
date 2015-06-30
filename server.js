@@ -1,14 +1,10 @@
-var express = require('express'),
-    server = express(),
-    port = process.env.PORT || 3000,
-
-    WebSocket = require('ws').Server, //no error its not real
-    socket = new WebSocket({port: 1337});//has to run on its own port
+var WebSocket = require('ws').Server,
+    port = process.env.PORT || 1337, //no error its not real
+    socket = new WebSocket({ port: port });//has to run on its own port
     /*<><><><><>*/
     //socket = require('socket.io')(http);
     //socket = new WebSocket({server: server});
     /*<><><><><>*/
-server.listen(port);
 var chatUser = require('./models/chatUser.js');
 var userDb = [];
 var history = [];
