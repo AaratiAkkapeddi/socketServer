@@ -10,7 +10,6 @@
   "author": "AaratiAkkapeddi",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.0",
     "ws": "^0.7.2"
   }
 }
